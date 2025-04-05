@@ -1,0 +1,77 @@
+.body{
+    width: 100% 
+    !important;
+}
+
+.sider{
+   height:100vh;
+    background-color: #b3cbf2 !important;
+    border-radius: 15px;
+}
+.menu{
+   background-color: #b3cbf2 !important;
+   border-radius: 20px;
+}
+.content{
+    margin: 24px;
+    background-color: #D9EEF3;
+    margin: 0px;
+}
+.header{
+   background-color: #b3cbf2;
+   border-radius: 20px;
+   text-align: center;
+   font-size: large;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 1000;
+   margin-top: 0px;
+   margin-bottom: 25px;
+}
+.main{
+   padding: 24px;
+   min-height: 75vh;
+}
+input {
+    width: 70vh;
+    height: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+label {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+input:focus
+{
+    outline: none;
+    border-bottom-color: blue;
+}
+
+.inputtype:focus-within label{
+    color:blueviolet;
+
+}
+.line{
+    width: 50%;
+    height: 35px;
+    margin-top: 20px;
+  }
+
+.personal Input{
+    margin-top: 10px;
+    height: 30px;
+}
+.personal Input:focus{
+    border-color: green;
+}
+.msg{
+    width: 100%;
+}
+.search-input Input {
+    width: 450px;
+}
+.searchid Input{
+   width:300px;
+    height:40px
+}
